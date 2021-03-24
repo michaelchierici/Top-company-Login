@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #643d87;
+  background: linear-gradient(-45deg, #ee7752, #23a6d5, #23d5ab) no-repeat;
+  background-size: 300% 300%;
+  color: white;
+  height: 100vh;
+}
+
+/*#container {
+  display: flex;
+  justify-content: center;
+
+} */
+
+#container img {
+  width: 120px;
+  height: 120px;
+  margin-top: -60px;
+  margin-bottom: 30px;
+}
+
+#container {
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #ffffff4d;
+}
+
+input {
+  height: 40px;
+  width: 80%;
+  font-size: 16px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding-left: 40px;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+input#email {
+  background-image: url("./assets/icone-usuario.png");
+}
+
+input#senha {
+  background-image: url("./assets/icone-cadeado.png");
+}
+
+input#entrar {
+  padding-right: 40px;
+  background-color: #f79300;
+  border: 2px solid #db7d00;
+  height: 45px;
+  width: 80%;
+  font-family: "Hind", sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input#entrar:hover {
+  background-color: #23d5ab;
+  transition-delay: 0.02s;
+  transition: all 200ms linear;
+  color: #fff791;
+  border: #23d5ab;
+}
+
+.top {
+  text-align: center;
+  font-size: 54px;
+  margin-top: 200px;
+}
+
+.top1 {
+  font-family: "Hind", sans-serif;
+  font-weight: bold;
+  color: #708090;
+}
+
+.top2 {
+  font-family: "Hind", sans-serif;
+  font-weight: bold;
+  color: #2f4f4f;
+}
